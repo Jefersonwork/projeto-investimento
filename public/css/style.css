@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    outline: none;
+    border: none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/**
+*===============================================================
+*Style to login pages
+*===============================================================
+*/
+
+.backgrounder{
+    position: absolute;
+    left: 0;
+    width: calc(100% - 300px);
+    height: 100%;;
+    background: url("http://www.padem.com.tr/wp-content/uploads/is-disiplini.jpg") no-repeat;
+    background-size: cover;
+}
+
+#conteudo-view {
+    position: absolute;
+    right: 0;
+    padding: 20px;
+    float: right;
+    width: 300px;
+    height: 100%;
+    background-color: #51dca6;
+}
+
+h1 {
+    float: left;
+    width: 100%;
+    font: 3em 'Fredoka One', cursive;
+    margin-top: 50px;
+    color: #f3f3f3;
+}
+
+h3, p {
+    float: left;
+    width: 100%;
+    font: .8em 'Fredoka One', cursive;
+    color: #f3f3f3;
+}
+
+form, label {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+form {
+    margin-top: 40px;
+}
+
+form p {
+    font-size: 1.25em;
+}
+
+.input, .submit  {
+    float: left;
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    border-radius: 20px;
+    border: 2px solid #52ca9b;
+    color: #959595;
+    font: 1em 'Arial';
+}
+
+.submit {
+    width: 60%;
+    float: right;
+    background-color: #00ff9c;
+    color: #f9f9f9;
+    text-align: center;
+    font: 1em 'Fredoka One', cursive;
+    cursor: pointer;
+}
